@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+    <script>
+        const repuestos = ["Bomba de agua","Correa de distrubucion","aceite","junta sello eje","bujias"];
+        const precios = [15000,3000,3500,5000,2000];
+
+        const repuestosMayoresA3000 = [];
+        const repuestosMenoresIgualesA3000 = [];
+
+        for(let i = 0; i < repuestos.length ; i++){
+            if(precios[i] > 3000){
+                repuestosMayoresA3000.push(repuestos[i]);
+            }else{
+                repuestosMenoresIgualesA3000.push(repuestos[i]);
+            }
+        }
+
+        console.log("mayores a 3000: " + repuestosMayoresA3000);
+        console.log("menores o iguales a 3000: " + repuestosMenoresIgualesA3000);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
