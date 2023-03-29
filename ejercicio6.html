@@ -15,22 +15,7 @@
         ,{poliza:126,patente:'AA300SH',cuotas:8,pagadas:[1,2]} 
         ]
 
-        const objPolizaConDeuda = {
-            poliza:0
-            ,patente:""
-            ,cantidad_adeudada:0
-        }
-
-        for(let i = 0; i < arrObjetos.length ; i++ ){
-            let poliza = arrObjetos[i];
-            cantidadAdeudada = poliza.cantidad_cuotas - poliza.pagadas.length;
-            objPolizaConDeuda.push(new objPolizaConDeuda(poliza.poliza,poliza.patente,cantidadAdeudada))
-        }
-
-        console.log(objPolizaConDeuda)
-
-
-
+        //resolver
 
     </script>
 </head>
