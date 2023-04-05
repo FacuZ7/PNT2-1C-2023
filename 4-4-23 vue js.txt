@@ -1,0 +1,12 @@
+caracteristicas principales de Vue:
+
+- Declarative Rendering (Representación declarativa): Vue amplia el HTML estandar con una sintaxis de plantilla 
+que nos permite describir de forma declarativa la salida html en funcion del estado de JAVASCRIPT
+
+-
+
+
+----------------------------------------
+Options API 
+
+con la API de opciones difinimos la logica de un componente usando un objeto de opciones como datos.
